@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group-create</title>
+    <!-- Font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+            click here
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+            <div class="modal-dialog modal-dialog1 body-group-create">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header bg-light">
+                        <h4 class="modal-title">Create or edit group</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body ">
+                        <form>
+                            <div class="form-row">
+                              <div class="col-md-6">
+                                 <label for="exampleInputPassword1" class="password">Group Name</label>
+                                 <input type="text" class="form-control" placeholder="Technical Mangement" id="exampleInputPassword1">
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                       <label for="inputState" class="status-group-create">Status</label>
+                                       <select id="inputState" class="form-control">
+                                            <option selected>Active</option>
+                                       </select>
+                                  </div>
+                              </div>
+                            </div>
+                       </form>
+                       <div class="buttons-group-create">
+                            <div class="cancel-group-create">
+                                <a href="#" class="btn-cancel-group-create">cancel</a>
+                            </div>
+                            <div class="save-group-create">
+                                <a href="#" class="btn-save-group-create">save</a>
+                            </div>
+                       </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

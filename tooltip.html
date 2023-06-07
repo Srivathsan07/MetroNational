@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metro National</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Css link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- responsive link -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <style>
+
+.form-tooltip1{
+    width: 150px;
+    background-color:#0F1E3E !important;
+    border-radius: 5px;  
+     }
+.form-tooltip1 img{
+    width: 20px;
+    height: 20px;  
+    
+}
+    </style>
+</head>
+<body>
+
+    <div class="container form-container">
+        <div class="form-tooltip1 py-2">
+            <ul class="pl-2">
+                <li class="mb-2"><img src="./images/pencil.png" alt="edit"><span class="text-white ml-2">Edit</span></li>
+                <li class="mb-2"><img src="./images/trash.png" alt="trash"><span class="text-white ml-2">delete</span></li>
+                <li><img src="./images/printer.png" alt="printer"><span class="text-white ml-2">export/print</span></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Bootstrap link -->	
+   <script  src="js/bootstrap.min.js"></script>
+   <script  src="js/popper.min.js"></script>
+   <script  src="js/slim.min.js"></script>
+   <!-- js link -->
+   <script  src="js/custom.js" type="text/javascript"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+  var profile = $('.profile');
+  var profiledropdown = $('.profiledropdown');
+  profile.on('click', function() {
+    if (profiledropdown.hasClass('fade')) {
+      profiledropdown.removeClass('fade').addClass('fade_reverse');
+    } else if (profiledropdown.hasClass('fade_reverse')) {
+      profiledropdown.removeClass('fade_reverse').addClass('fade');
+    } else {
+      profiledropdown.addClass('fade');
+    }
+    // profiledropdown.toggleClass('fade');
+  });
+
+  });
+
+$(document).ready(function(){
+
+});
+</script>
+
+
+</body>
+</html>

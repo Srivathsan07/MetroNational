@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compute</title>
+    <!-- Font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+            click here
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal modal-filter" id="myModal1">
+            <div class="modal-dialog modal-dialog1">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header bg-primary">
+                        <div class="heading">
+                            <h4 class="modal-title text-white heading-filter">COMPUTE INTEREST</h4>
+                        </div>
+                        <button type="button" class="close close2" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body ">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form>
+                                        <div class="form-group p-0 m-0">
+                                            <label for="input4" class="label-text">Selected month and yeaar</label>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col">
+                                                <input type="text" class="form-control" id="input4" placeholder="08">
+                                            </div>
+                                            <div class="form-group col">
+                                                <input type="text" class="form-control" id="input4" placeholder="2021">
+                                            </div>
+                                        </div>
+                                        <div class="ro">
+                                            <div class="form-group">
+                                                <label for="compute" class="label-text">Computed interest rate
+                                                    is</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control input-interest" id="compute"
+                                                        placeholder="18">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputAddress" class="label-text">Selected group</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Savings">
+                                    </div>
+                                    <div class="generate">
+                                        <button class="btn btn-success button-generate"><a href="#"
+                                                class="btn-generate">GENERATE NOW</a></button>
+                                    </div>
+                                    <!-- <div class="form-group">
+                                        <label for="inputState">search by email address</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected>select by email address</option>
+                                        </select>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
